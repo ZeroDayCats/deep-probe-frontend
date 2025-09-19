@@ -19,12 +19,19 @@ _Built for Stellar Hackathon 2025 | MGM University_
 ### ✨ Key Features
 
 🔍 **Multi-Tool Research** - Seamlessly switch between 13+ research tools
-🎨 **Premium UI/UX** - Glass morphism design with smooth animations  
+
+🎨 **Premium UI/UX** - Glass morphism design with smooth animations
+
 📱 **Fully Responsive** - Mobile-first design with collapsible sidebar
+
 ⚡ **Real-Time Streaming** - Live AI responses with typing indicators
+
 🛠️ **Smart Tool Selection** - Auto, manual, and quick group modes
+
 💬 **Session Management** - Persistent chat history with easy navigation
+
 🎭 **Beautiful Components** - Custom tool icons with gradient animations
+
 🌙 **Modern Architecture** - Clean, maintainable, and scalable codebase
 
 ---
@@ -120,8 +127,6 @@ Ensure you have the following installed:
 
 ---
 
-## 🎨 Design System
-
 ### Color Palette
 
 - **Primary Brand**: `#8B5CF6` (Purple 500)
@@ -203,7 +208,6 @@ npm run build        # Build for production
 
 - **ESLint** - JavaScript/TypeScript linting
 - **Prettier** - Code formatting
-- **Husky** - Git hooks for quality checks
 - **TypeScript** - Static type checking
 
 ---
