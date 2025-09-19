@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Probe - AI Research Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: "#f7f2ff",
+                100: "#eee6ff",
+                200: "#ddccff",
+                300: "#c1a3ff",
+                400: "#9c6cff",
+                500: "#7c3aed",
+                600: "#6b2bd9",
+                700: "#5a21b8",
+                800: "#4a1a96",
+                900: "#3c157a",
+                950: "#2a0f57",
+              },
+            },
+            boxShadow: {
+              glow: "0 10px 30px -10px rgba(124,58,237,.35)",
+              "glow-lg": "0 20px 40px -15px rgba(124,58,237,.4)",
+            },
+            animation: {
+              in: "fadeInUp .6s ease-out both",
+              pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+              typing: "typing 1.5s ease-in-out infinite",
+            },
+            keyframes: {
+              fadeInUp: {
+                "0%": { opacity: 0, transform: "translateY(6px)" },
+                "100%": { opacity: 1, transform: "translateY(0)" },
+              },
+              typing: { "0%, 100%": { opacity: 0.3 }, "50%": { opacity: 1 } },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-br from-zinc-50 via-white to-brand-50/30 text-zinc-900 antialiased"
+  >
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+  <style>
+    .line-clamp-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  </style>
+
+  <style>
+    .line-clamp-1 {
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .line-clamp-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  </style>
+</html>
