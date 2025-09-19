@@ -2,13 +2,9 @@
 
 <div align="center">
 
-(https://img.shields.io/badge/Deep%20Probe-AI%20Research%20Assistant-8B5CF6?style=for-the
-
 **Next-Generation AI-Powered Research Platform**
 
 _Built for Stellar Hackathon 2025 | MGM University_
-
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?stylettps://img.shields.io/badge/TypeScript-5.x-3178C6?lwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-06B6D4?style=flat-square&logo=tailwindcss&logoColor-5.x-646CFF?style=flat-square&logo=v
 
 [📖 Documentation](#) - [🎥 Video Demo](https://www.youtube.com/watch?v=U2Yy6iEWLBI)
 
