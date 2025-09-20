@@ -5,11 +5,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: "0.0.0.0",
-    allowedHosts: ["probe.sangonomiya.icu"], // dev server allowlist [web:73]
+    allowedHosts: true, // allow any host in dev [web:73][web:127]
   },
   preview: {
     host: "0.0.0.0",
-    allowedHosts: "probe.sangonomiya.icu",   // preview allowlist (string | true) [web:83]
+    allowedHosts: true, // allow any host in preview [web:83]
   },
 });
 
