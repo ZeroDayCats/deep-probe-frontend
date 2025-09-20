@@ -7,6 +7,8 @@ WORKDIR /app
 # Copy only package files first for better caching
 COPY package.json package-lock.json* pnpm-lock.yaml* bun.lockb* yarn.lock* ./
 
+RUN apt-get update && apt-get install -y python3 make g++ && ln -sf python3 /usr/bin/python
+
 # Install dependencies (only dev needed for build)
 RUN npm install --legacy-peer-deps
 
