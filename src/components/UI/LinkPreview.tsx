@@ -77,8 +77,6 @@ const getDomainInfo = (url: string): LinkMetadata => {
   try {
     const urlObj = new URL(url);
     const hostname = urlObj.hostname.replace("www.", "");
-    const pathname = urlObj.pathname;
-
     // Enhanced site mappings
     const siteMap: Record<
       string,
