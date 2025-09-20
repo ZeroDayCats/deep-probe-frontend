@@ -29,6 +29,9 @@ WORKDIR /app
 COPY --from=builder /app/dist ./dist
 COPY package.json ./
 
+# installs python builder
+RUN apt-get update && apt-get install -y python3 make g++ && ln -sf python3 /usr/bin/python
+
 # Install only *production* dependencies (if any runtime needed)
 RUN npm install --omit=dev --legacy-peer-deps
 
