@@ -9,7 +9,7 @@ import type {
   HealthResponse,
 } from "../types/index";
 
-const API_BASE_URL = "https://probe-api.sangonomiya.icu";
+const API_BASE_URL = "http://localhost:8000";
 
 const api = axios.create({
   baseURL: API_BASE_URL,

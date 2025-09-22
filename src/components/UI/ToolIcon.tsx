@@ -14,6 +14,7 @@ import {
   Github, // GitHub
   Flag, // Countries
   Clock, // Timezone
+  Plane,
 } from "lucide-react";
 
 interface ToolIconProps {
@@ -109,6 +110,12 @@ const toolIcons: Record<
     gradient: "from-amber-500 to-amber-600",
     name: "Timezone Info",
     shortName: "Timezone",
+  },
+  aviationstack_search: {
+    icon: Plane,
+    gradient: "from-sky-400 to-sky-600",
+    name: "Flight Search",
+    shortName: "Flights",
   },
 };
 

@@ -99,6 +99,14 @@ export const TOOLS_CONFIG: ToolConfig[] = [
     category: "location",
     icon: "Clock",
   },
+  // 🆕 NEW FLIGHT TOOL
+  {
+    name: "aviationstack_search",
+    displayName: "Flights",
+    description: "Real-time flight data and tracking",
+    category: "travel",
+    icon: "Plane",
+  },
 ];
 
 // 🔄 Auto-generated transformation maps
@@ -155,6 +163,13 @@ export const TOOL_GROUPS = [
     tools: ["github_search", "html_skim"],
     description: "Code search and web development",
     icon: "Code",
+  },
+  // 🆕 NEW TRAVEL GROUP
+  {
+    label: "Travel & Transport",
+    tools: ["aviationstack_search", "openstreetmap_search", "timezone_api"],
+    description: "Flight tracking and travel planning",
+    icon: "Plane",
   },
 ];
 
